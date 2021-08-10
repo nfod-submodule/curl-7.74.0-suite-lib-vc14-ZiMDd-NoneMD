@@ -26,3 +26,8 @@ zlib-1.2.11
 http://zlib.net/
 http://zlib.net/zlib-1.2.11.tar.gz
 https://github.com/madler/zlib.git
+
+使用说明
+	1. 引用此静态库须添加预处理器定义：CURL_STATICLIB
+	   (中文) 配置属性 -> C/C++ -> 预处理器 -> 预处理器定义
+	   (English) Configuration Properties -> C/C++ -> Preprocessor -> Preprocessor Definitions
